@@ -44,3 +44,30 @@ Renk değerlerinin ortasındaki byte'lar birleştirilip ASCII formatına çeviri
 
 **Flag:** _GOP{renk_kodlarindan_flag_alabiliriz_ama_ortasini}_
 
+### Rototo
+
+Verilen şifreli metin rot13 decode yapıldığında flag bulundu.
+TBC{sy4t_s0e_olg3_rnfl3p}
+
+**Flag:** _GOP{fl4g_f0r_byt3_easy3c}_
+
+### Brute
+
+Verilen şifreli metin rot23 decode yapıldığında flag bulundu.
+JRS{vhcdulq_kdnodul_vdnolglu}
+
+**Flag:** _GOP{sezarin_haklari_saklidir}_
+
+### Music
+
+Videonun içinde kısa süreliğine flag gözüküyor.
+![misc_music.png](assets/misc_music.png)
+
+**Flag:** _GOP{dance_monkey}_
+
+### Secret Cat
+
+Verilen png dosyasını foremost aracı ile kullanınca farklı bir fotoğraf daha çıkıyor. Fotoğrafı açtığımızda flag bulundu.
+![misc_secret_cat.png](assets/misc_secret_cat.png)
+
+**flag:** _GOP{hidden_img_xd_binwalk}_
