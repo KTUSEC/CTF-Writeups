@@ -9,8 +9,6 @@ Welcome to the **KTUSEC CTF Write-ups** repository! Here, you'll find detailed e
 - [About KTUSEC](#about-ktusec)
 - [What is CTF?](#what-is-ctf)
 - [Write-ups](#write-ups)
-- [How to Contribute](#how-to-contribute)
-- [Resources](#resources)
 - [License](#license)
 
 ## About KTUSEC
