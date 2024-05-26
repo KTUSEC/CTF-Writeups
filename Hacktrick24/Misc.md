@@ -71,3 +71,72 @@ Verilen png dosyasını foremost aracı ile kullanınca farklı bir fotoğraf da
 ![misc_secret_cat.png](assets/misc_secret_cat.png)
 
 **flag:** _GOP{hidden_img_xd_binwalk}_
+
+### Secret Code
+Soruda bize verilen diyalog;
+
+++ Abi sen bu işleri nereden öğrendin.
+
+++ Öğrettiler.
+
+
+Aklımıza kurtlar vadisindeki sahneyi hatırlatıyor. Soruda da ayrıca verilen [KodDicle_bot](https://t.me/KodDicle_bot) ifadesinin bir telegram botu olduğunu tespit ediyoruz. Daha sonra Kurtlar Vadisinde bu diyalogun geçtiği sahnenin sonundaki, Polat Alemdar’ın kullandığı bilgisayarda yazan şifreleri deniyoruz. “32510215” bize flagi veriyor
+
+![misc_kurtar_vadisi_sahne.png](assets/misc_kurtar_vadisi_sahne.png)
+
+![misc_koddicle_telegram_flag.png](assets/misc_koddicle_telegram_flag.png)
+
+**flag:** _GOP{S3cr3t_S3rv1c3_Ag3nt}_
+
+### Old Days
+
+Bize verilen ses dosyasını dinlediğimizde DTMF decoding işlemi (tuş takımı sesi decoding) olduğunu anlıyoruz. https://unframework.github.io/dtmf-detect/# aracını kullanarak sesi çözüyoruz. Daha sonrasında çıktıyı ASCII shift decoder kullanarak bir kez daha çözüp flage ulaşıyoruz.
+
+![misc_olddays_dtmf.png](assets/misc_olddays_dtmf.png)
+
+![misc_olddays_decoded.png](assets/misc_olddays_decoded.png)
+
+**flag:** _GOP{hobala}_
+
+### My Secret List
+
+Soruda Secret List olduğu belirtilen bir text veriliyor. Bu text’i spotify’ın playlist query’sine koyduğumuz zaman bir playliste ulaşıyoruz. Daha sonrasında bu playlistteki parçaların ilk harflerini yukarıdan aşağıya okuduğumuzda anlamlı bir flag’e ulaşıyoruz.
+
+![misc_secret_list_playlist.png](assets/misc_secret_list_playlist.png)
+
+**flag:** _GOP{gizligörünenflag}_
+
+### Secret Team
+
+Bize soruda sadece +hiRTdca-ijdhOTNk ifadesi veriliyor. + ile başladığı için bir telegram invite’ı olduğunu düşünüyoruz. https://t.me/+hiRTdca-ijdhOTNk davetinin yönlendirdiği kanalda flagi buluyoruz.
+
+![misc_secret_team_flag.png](assets/misc_secret_team_flag.png)
+
+**flag:** _GOP{Telegram_Davetine_Hos_Geldiniz}_
+
+### 3 Rotor
+
+Sorudaki rotor ifadesi bize ENIGMA makinesini hatırlatıyor. Verilen şifreli metni ENIGMA decoder’a koyduğumuzda flag’i buluyoruz.
+
+![misc_3_rotor_flag.png](assets/misc_3_rotor_flag.png)
+
+**flag:** _GOP{ENIGMEROTORLUARACLARGERCEKTENBIRHARIKALAR}_
+
+### ISO 32000-1
+
+Soruda bize verilen PDF’i adobe acrobat ile açıyoruz. Mouse imlecini adobe acrobat’ta belirtilen yere getirdiğimizde flag ortaya çıkıyor.
+
+![misc_ISO_32000_flag.png](assets/misc_ISO_32000_flag.png)
+
+**flag:** _GOP{interesting_stego_checkpoint}_
+
+### Magic
+
+Soruda verilen dosya’nın stringlerini incelediğimizde RGB ifadesine rastlıyoruz. Bu da dosyanın bir fotoğraf dosyası olduğu hakkında bir şüphe uyandırıyor. Dosyada eksik olan header ve diğer ifadeleri hex olarak ekleyip düzenliyoruz. Daha sonrasında fotoğrafı açtığımızda flag ortaya çıkıyor.
+
+![misc_magic_flag.png](assets/misc_magic_flag.png)
+
+**flag:** _GOP{eksik_hex_patisi}_
+
+
+
