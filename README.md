@@ -1,8 +1,3 @@
----
-aliases:
-- KTUSEC CTF Write-ups
-title: KTUSEC CTF Write-ups
----
 # KTUSEC CTF Write-ups
 
 ![KTUSEC Logo](https://avatars.githubusercontent.com/u/26014323?s=400&u=16dfbcd7a4f950737ad0bde038bf964bbe1b4fde&v=4)
