@@ -1,3 +1,8 @@
+---
+aliases:
+- KTUSEC CTF Write-ups
+title: KTUSEC CTF Write-ups
+---
 # KTUSEC CTF Write-ups
 
 ![KTUSEC Logo](https://avatars.githubusercontent.com/u/26014323?s=400&u=16dfbcd7a4f950737ad0bde038bf964bbe1b4fde&v=4)
@@ -25,9 +30,11 @@ Capture The Flag (CTF) is a type of cybersecurity competition that challenges pa
 
 Here you'll find our detailed write-ups for various CTF challenges we've tackled. Each write-up includes a step-by-step explanation of the problem, our thought process, and the solution.
 
+- [Hacktrick24](Hacktrick24/README.md)
+
 ## License
 
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for more information.
 
 ---
 
